@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import NAIJAPIN from "../../Assets/Projects/NAIJAPIN.png";
+import NAIJAPIN from "../../Assets/Projects/NAIJAPIN.png";
+import NETFLIX-CLONE from  "../../Assets/Projects/NETFLIX-CLONE.png";
 
 function Projects() {
   return (
@@ -23,6 +25,16 @@ function Projects() {
               title="NAIJAPIN"
               description="An application to share moments and experiences with friends, where you can like, comment,create pins and so much more"
               ghLink="https://github.com/Realyyt/NAIJAPIN"
+              demoLink=""
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={NETFLIX-CLONE.png}
+              isBlog={false}
+              title="NETFLIX CLONE"
+              description="This web app has similar user interface like NETFLIX to stream and watch movies"
+              ghLink="https://github.com/Realyyt/Netflix-clone"
               demoLink=""
             />
           </Col>
