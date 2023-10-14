@@ -1,5 +1,5 @@
 <h2 align="center">
-  Portfolio Website br/>
+  Portfolio Website 
 </h2>
 
 This project was built using these technologies.
