@@ -37,6 +37,15 @@ function Projects() {
               demoLink=""
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="ETHEREUM DAPP"
+              description="This is a blockchain application powered by smart contract"
+              ghLink="https://github.com/Realyyt/Ethereumdapp-Todolist"
+              demoLink=""
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
