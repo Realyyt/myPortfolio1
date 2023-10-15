@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import NAIJAPIN from "../../Assets/Projects/NAIJAPIN.png";
 import NETFLIXCLONE from "../../Assets/Projects/NETFLIXCLONE.png";
+import DApp from "../../Assets/Projects/DApp.png";
 
 function Projects() {
   return (
@@ -39,6 +40,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={DApp}
               isBlog={false}
               title="ETHEREUM DAPP"
               description="This is a blockchain application powered by smart contract"
