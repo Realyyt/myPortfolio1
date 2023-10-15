@@ -3,8 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import NAIJAPIN from "../../Assets/Projects/NAIJAPIN.png";
-import NAIJAPIN from "../../Assets/Projects/NAIJAPIN.png";
-import NETFLIX-CLONE from  "../../Assets/Projects/NETFLIX-CLONE.png";
+import NETFLIXCLONE from "../../Assets/Projects/NETFLIXCLONE.png";
 
 function Projects() {
   return (
@@ -30,7 +29,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={NETFLIX-CLONE.png}
+              imgPath={NETFLIXCLONE}
               isBlog={false}
               title="NETFLIX CLONE"
               description="This web app has similar user interface like NETFLIX to stream and watch movies"
