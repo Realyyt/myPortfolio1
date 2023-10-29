@@ -5,6 +5,8 @@ import Particle from "../Particle";
 import NAIJAPIN from "../../Assets/Projects/NAIJAPIN.png";
 import NETFLIXCLONE from "../../Assets/Projects/NETFLIXCLONE.png";
 import DApp from "../../Assets/Projects/DApp.png";
+import MUcoin from "../../Assets/Projects/ERC-20.jpeg";
+
 
 function Projects() {
   return (
@@ -45,6 +47,16 @@ function Projects() {
               title="ETHEREUM DAPP"
               description="This is a blockchain application powered by smart contract"
               ghLink="https://github.com/Realyyt/Ethereumdapp-Todolist"
+              demoLink=""
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MUcoin}
+              isBlog={false}
+              title="MU-coin"
+              description="This is an Erc-20 token proposal for Mewar University India"
+              ghLink="https://github.com/Realyyt/MU-coin"
               demoLink=""
             />
           </Col>
