@@ -42,21 +42,21 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={DApp}
-              isBlog={false}
-              title="ETHEREUM DAPP"
-              description="This is a blockchain application powered by smart contract"
-              ghLink="https://github.com/Realyyt/Ethereumdapp-Todolist"
-              demoLink=""
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={MUcoin}
               isBlog={false}
               title="MU-coin"
               description="This is an Erc-20 token proposal for Mewar University India"
               ghLink="https://github.com/Realyyt/MU-coin"
+              demoLink=""
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={DApp}
+              isBlog={false}
+              title="ETHEREUM DAPP"
+              description="This is a blockchain application powered by smart contract"
+              ghLink="https://github.com/Realyyt/Ethereumdapp-Todolist"
               demoLink=""
             />
           </Col>
