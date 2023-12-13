@@ -10,9 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">UMARU EMMANUEL ISAAC </span>
             from <span className="purple"> Nigeria.</span>
-            <br /> I am a final year student 
-            <br />
-            Additionally, I am currently employed as a software developer at
+            I am currently employed as a software developer at
             Paycrest
             <br />
             <br />
