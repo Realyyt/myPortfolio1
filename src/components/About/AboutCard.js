@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">UMARU EMMANUEL ISAAC </span>
-            from <span className="purple"> Nigeria.</span>
+            <br />
             I am currently employed as a software developer at
             Paycrest
             <br />
