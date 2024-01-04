@@ -3,9 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import NAIJAPIN from "../../Assets/Projects/NAIJAPIN.png";
-import NETFLIXCLONE from "../../Assets/Projects/NETFLIXCLONE.png";
+import knowledgehut from "../../Assets/Projects/knowledgehut.png";
 import DApp from "../../Assets/Projects/DApp.png";
 import MUcoin from "../../Assets/Projects/ERC-20.jpeg";
+import andela from "../../Assets/Projects/andela.png";
+import paycrest from "../../Assets/Projects/paycrest.png";
 
 
 function Projects() {
@@ -20,6 +22,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={paycrest}
+              isBlog={false}
+              title="Paycrest"
+              description="We're developing a blockchain-based protocol for businesses to convert cryptocurrency to fiat currency by aggregating liquidity from P2P sources, rather than relying on a single local payment processor."
+              ghLink="https://paycrest.io/"
+              demoLink=""
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={NAIJAPIN}
@@ -32,11 +44,11 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={NETFLIXCLONE}
+              imgPath={knowledgehut}
               isBlog={false}
               title="NETFLIX CLONE"
-              description="This web app has similar user interface like NETFLIX to stream and watch movies"
-              ghLink="https://github.com/Realyyt/Netflix-clone"
+              description="Browse through classroom and online training courses offered by KnowledgeHut. We conduct classroom, Virtual and E-learning trainings for all courses."
+              ghLink="https://www.knowledgehut.com/"
               demoLink=""
             />
           </Col>
@@ -57,6 +69,16 @@ function Projects() {
               title="ETHEREUM DAPP"
               description="This is a blockchain application powered by smart contract"
               ghLink="https://github.com/Realyyt/Ethereumdapp-Todolist"
+              demoLink=""
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={andela}
+              isBlog={false}
+              title="Andela"
+              description="We exist to unlock human potential at scale. We envision a world where the most talented people can build a career commensurate with their ability – not their race, gender, or geography."
+              ghLink="https://andela.com/"
               demoLink=""
             />
           </Col>
