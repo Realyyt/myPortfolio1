@@ -8,6 +8,7 @@ import DApp from "../../Assets/Projects/DApp.png";
 import MUcoin from "../../Assets/Projects/ERC-20.jpeg";
 import andela from "../../Assets/Projects/andela.png";
 import paycrest from "../../Assets/Projects/paycrest.png";
+import storyprotocol from "../../Assets/Projects/storyprotocol.png";
 
 
 function Projects() {
@@ -22,6 +23,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={storyprotocol}
+              isBlog={false}
+              title="Story Protocol"
+              description="Story Protocol is building
+              open IP infrastructure to grow
+              the creativity of the internet era."
+              ghLink="https://www.storyprotocol.xyz/?ref=lapaninja"
+              demoLink=""
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={paycrest}
@@ -46,7 +59,7 @@ function Projects() {
             <ProjectCard
               imgPath={knowledgehut}
               isBlog={false}
-              title="NETFLIX CLONE"
+              title="KnowledgeHUT Upgrad"
               description="Browse through classroom and online training courses offered by KnowledgeHut. We conduct classroom, Virtual and E-learning trainings for all courses."
               ghLink="https://www.knowledgehut.com/"
               demoLink=""
