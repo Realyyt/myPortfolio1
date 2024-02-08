@@ -35,16 +35,6 @@ function Projects() {
               demoLink=""
             />
           </Col>
-        <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={paycrest}
-              isBlog={false}
-              title="Paycrest"
-              description="We're developing a blockchain-based protocol for businesses to convert cryptocurrency to fiat currency by aggregating liquidity from P2P sources, rather than relying on a single local payment processor."
-              ghLink="https://paycrest.io/"
-              demoLink=""
-            />
-          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={NAIJAPIN}
@@ -85,17 +75,6 @@ function Projects() {
               demoLink=""
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={andela}
-              isBlog={false}
-              title="Andela"
-              description="We exist to unlock human potential at scale. We envision a world where the most talented people can build a career commensurate with their ability – not their race, gender, or geography."
-              ghLink="https://andela.com/"
-              demoLink=""
-            />
-          </Col>
-        </Row>
       </Container>
     </Container>
   );
